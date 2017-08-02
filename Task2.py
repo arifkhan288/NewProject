@@ -57,6 +57,7 @@ class Task2:
 #main for calling functions
 
 if __name__ == '__main__':
+#Taking file as a input from Console
   inFile = raw_input("Enter the input File Name: ")
   y = Task2(inFile)
   y.findreport()
